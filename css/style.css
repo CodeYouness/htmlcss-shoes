@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* tutto header con bottoni in float */
@@ -36,6 +37,7 @@ a {
     background-color: white;
     color: black;
     line-height: 20px;
+    font-weight: 900;
 }
 
 section {
@@ -70,4 +72,16 @@ p {
 
 .yellow {
     color: yellow;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.green {
+    color: green;
 }
