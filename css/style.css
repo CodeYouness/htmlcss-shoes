@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* tutto header con bottoni in float */
 header {
     position: fixed;
     right: 0;
-    margin-top: 2rem;
-    margin-right: 1rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
 }
 
 .clearfix::after {
@@ -22,12 +23,51 @@ header {
     float: right;
 }
 
-button {
-    width: 2rem;
-    height: 2rem;
-    border: none;
-    background-color: white;
+a {
+    display: inline-block;
+    margin-left: 2rem;
+    text-decoration: none;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    margin: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    color: black;
+    line-height: 20px;
+}
+
+section {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    text-align: center;
+    width: 40%;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 2rem;
+    word-spacing: 0.7rem;
     font-weight: 900;
+    text-transform: uppercase;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.yellow {
+    color: yellow;
 }
